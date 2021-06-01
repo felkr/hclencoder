@@ -1,4 +1,4 @@
-module github.com/rodaine/hclencoder
+module github.com/felkr/hclencoder
 
 go 1.14
 
