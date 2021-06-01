@@ -546,6 +546,10 @@ func TestExtractFieldMeta(t *testing.T) {
 			fieldMeta{name: "bar", key: true},
 		},
 		{
+			`hcl:"bar,label"`,
+			fieldMeta{name: "bar", key: true},
+		},
+		{
 			`hcl:",squash"`,
 			fieldMeta{name: fieldName, squash: true},
 		},
